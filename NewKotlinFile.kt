@@ -1,7 +1,11 @@
-println("It is Kotlin file")
-for (i in 1..10){
-  println(i)
-}
-for (j in 1..1){
-  print(
+fun main() {
+    println("It is a Kotlin file")
+
+    for (i in 1..10) {
+        println(i)
+    }
+
+    val j = 1
+    print(j)
+    println() // newline for cleanliness
 }

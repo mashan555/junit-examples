@@ -23,4 +23,4 @@ jobs:
         with:
           junie_api_key: ${{ secrets.JUNIE_API_KEY }}
           assignee_trigger: "mashan555"
-          base_branch: "develop"
+        

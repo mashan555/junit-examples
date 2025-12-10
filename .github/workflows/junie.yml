@@ -9,12 +9,6 @@ on:
     types: [opened, assigned, labeled]
   pull_request_review:
     types: [submitted]
-  workflow_dispatch:
-    inputs:
-      prNumber:
-        description: "PR number"
-        required: true
-    
 
 jobs:
   junie:
@@ -28,4 +22,3 @@ jobs:
       - uses: JetBrains/junie-github-action@main
         with:
           junie_api_key: ${{ secrets.JUNIE_API_KEY }}
-          resolve_conflicts: true

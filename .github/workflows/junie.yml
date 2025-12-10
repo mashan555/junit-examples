@@ -22,5 +22,3 @@ jobs:
       - uses: JetBrains/junie-github-action@main
         with:
           junie_api_key: ${{ secrets.JUNIE_API_KEY }}
-          allowed_mcp_servers: mcp_github_checks_server
-        

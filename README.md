@@ -1,4 +1,4 @@
-# JUnit Example!!!! [![ci-badge]][ci-actions]
+# JUnit Examp())) [![ci-badge]][ci-actions]
 
 Welcome to _JUnit Examples_, a collection of example applications and extensions
 using JUnit Jupiter, JUnit Vintage, and the JUnit Platform on various build systems.
